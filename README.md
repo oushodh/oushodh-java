@@ -14,53 +14,28 @@ The full API reference is at [oushodh.dev/docs](https://oushodh.dev/docs).
 
 ## Install
 
-Install from GitHub for now, through [JitPack](https://jitpack.io). Use a release tag, such as `v0.1.0`, or
-`main-SNAPSHOT` for the newest commit.
+Install it from Maven Central.
 
 Gradle (Kotlin DSL):
 
 ```kotlin
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
 }
 
 dependencies {
-    implementation("com.github.oushodh:oushodh-java:v0.1.0")
+    implementation("dev.oushodh:oushodh:0.1.0")
 }
 ```
 
 Maven:
 
 ```xml
-<repositories>
-  <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-  </repository>
-</repositories>
-
 <dependency>
-  <groupId>com.github.oushodh</groupId>
-  <artifactId>oushodh-java</artifactId>
-  <version>v0.1.0</version>
+  <groupId>dev.oushodh</groupId>
+  <artifactId>oushodh</artifactId>
+  <version>0.1.0</version>
 </dependency>
-```
-
-Or build it yourself and install it in your local Maven repository:
-
-```sh
-git clone https://github.com/oushodh/oushodh-java.git
-cd oushodh-java
-./gradlew publishToMavenLocal
-```
-
-Then add `mavenLocal()` to your repositories and depend on `dev.oushodh:oushodh:0.1.0`.
-
-Install from Maven Central is coming soon:
-
-```kotlin
-implementation("dev.oushodh:oushodh:0.1.0")
 ```
 
 ## Quick start
