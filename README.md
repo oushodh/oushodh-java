@@ -297,7 +297,8 @@ your account may make in a month.
 
 Some plans read only the first medicines, in the order of their permanent number. Lists and search leave out the rest.
 A lookup by ID of such a medicine throws `PermissionDeniedException` with the code `plan_limit`.
-`meta().getMedicines()` says how many medicines your key reads.
+`meta().getMedicines()` says how many medicines your key reads. An account with no active plan gets
+`PermissionDeniedException` with the code `plan_expired` on every call.
 
 ## Images
 
