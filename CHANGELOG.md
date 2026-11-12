@@ -1,12 +1,10 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 (12 Nov, 2026)
 
 - The models moved to `dev.oushodh.models`, the exceptions to `dev.oushodh.errors`, and `Transport` and
   `JdkTransport` to `dev.oushodh.http`. `Oushodh` and `MedicineQuery` stay in `dev.oushodh`. Imports change, and
-  nothing else does. No version was published, so this is part of 0.1.0.
-
-## 0.1.0 (unreleased)
+  nothing else does.
 
 - First version of the Java SDK for the Oushodh API `/v1`. It runs on Java 17 or later and from Kotlin.
 - `Oushodh` client, made with `Oushodh.builder()`: `meta()`, `listMedicines()`, `medicines()` (pages to the end),

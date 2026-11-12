@@ -14,8 +14,8 @@ The full API reference is at [oushodh.dev/docs](https://oushodh.dev/docs).
 
 ## Install
 
-Install from GitHub for now, through [JitPack](https://jitpack.io). Use a release tag, such as `v0.1.0` once it
-exists, or `main-SNAPSHOT` for the newest commit.
+Install from GitHub for now, through [JitPack](https://jitpack.io). Use a release tag, such as `v0.1.0`, or
+`main-SNAPSHOT` for the newest commit.
 
 Gradle (Kotlin DSL):
 
@@ -26,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.oushodh:oushodh-java:main-SNAPSHOT")
+    implementation("com.github.oushodh:oushodh-java:v0.1.0")
 }
 ```
 
@@ -43,7 +43,7 @@ Maven:
 <dependency>
   <groupId>com.github.oushodh</groupId>
   <artifactId>oushodh-java</artifactId>
-  <version>main-SNAPSHOT</version>
+  <version>v0.1.0</version>
 </dependency>
 ```
 
