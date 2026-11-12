@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.errors;
 
 /** No answer came back in time. */
 public class ApiTimeoutException extends ApiConnectionException {

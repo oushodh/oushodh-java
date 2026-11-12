@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.errors;
 
 import org.jspecify.annotations.Nullable;
 

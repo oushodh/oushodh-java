@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.errors;
 
 /** No answer came back: the network failed. */
 public class ApiConnectionException extends OushodhException {
