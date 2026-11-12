@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.models;
 
 import java.time.Instant;
 import org.jspecify.annotations.Nullable;

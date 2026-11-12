@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.http;
 
 import java.io.IOException;
 import java.net.URI;

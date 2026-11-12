@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.models;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import java.util.Collections;

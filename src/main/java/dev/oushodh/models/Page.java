@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.models;
 
 import java.util.List;
 import org.jspecify.annotations.Nullable;

@@ -1,4 +1,4 @@
-package dev.oushodh;
+package dev.oushodh.models;
 
 import java.math.BigDecimal;
 import java.time.Instant;
